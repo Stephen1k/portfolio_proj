@@ -204,6 +204,11 @@ p {
     margin-top: 1rem;
   }
 
+  .icon {
+    cursor: pointer;
+    height: 2rem;
+  }
+
 /* BUTTON */
 
 .btn-container {
@@ -251,3 +256,52 @@ p {
 .btn-container {
   gap: 1rem;
 }
+
+/* ABOUT */
+#about{
+  position: relative;
+}
+
+.about-container{
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.experience{
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-container,
+.experience{
+  display: flex;
+}
+
+.about-details{  
+  margin: auto 0;
+  margin-right: 2rem;
+  width:75%;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.arrow-up {
+  position:absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+.arrow-down {
+  position: absolute;
+  right: -8rem;
+  bottom: 2.5rem;
+}
+
